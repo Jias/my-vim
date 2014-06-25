@@ -1,8 +1,10 @@
 " 关闭兼容模式
-set nocompatible
+set nocompatib
 
 if has('gui_running')
-  set guifont=Lucida_Console:h16
+    set guifont=Lucida_Console:h16
+    " 行间距
+    set linespace=5
 endif
   
 "https://github.com/scrooloose/nerdtree
@@ -63,4 +65,5 @@ endif
     set encoding=utf-8 " Necessary to show Unicode glyphs
 "}}}
 set nocompatible
+
 
