@@ -1,5 +1,5 @@
 " 关闭兼容模式
-set nocompatib
+set nocompatible
 
 if has('gui_running')
     set guifont=Lucida_Console:h16
